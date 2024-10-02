@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'NorsBold';
+    src:url('https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf') ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+#pic{
+
+    background:url("https://plus.unsplash.com/premium_photo-1692641346424-808844ecba0e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExNXx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding-left: 0;
+    padding-right: 0;
+
+
+}
+#logo{
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    height: 100px;
+    
+}
+#logostyle{
+    height: 100px;
+    
+
+}
+
+#logotext{
+    font-family: 'NorsBold';
+    font-size: 90px;
+    margin-top: 30px;
+    color: white;
+}
+#content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    background-color: rgb(248, 236, 226);
+    padding-left: 0px;
+    padding-right: 0px;
+    overflow: hidden;    
+}
+
+#form{
+    background-color: white;
+    -webkit-box-shadow: 0px 10px 19px -10px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 10px 19px -10px rgba(0,0,0,0.4);
+    box-shadow: 0px 10px 19px -10px rgba(0,0,0,0.4);
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: flex-start;    
+    padding: 5px;
+    padding-right: 120px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+#header{
+    height: 250px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    text-align: left;
+    font-size: 22px;
+    padding-left: 55px;
+    padding-right: 100px;
+}
+
+.formRow {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    padding: 5px;
+   
+    padding-right: 50px;
+    
+}
+#footer{
+    
+}
+
+.btn {
+    display: flex;
+    background-color: rgb(250, 142, 42);
+    color: white;
+    margin-left: 55px;
+    margin-top: 30px;
+    padding-left: 40px;
+    padding-right:40px ;
+}
+
+#footertext {
+    text-align: left;
+    color: black;
+    margin-left: 55px;
+    margin-top: 20px;
+    
+}
+
+
+.pageContainer{
+    height: 100%;
+}
